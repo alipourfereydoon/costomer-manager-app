@@ -1,10 +1,18 @@
 import { useState } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Contacts from "./components/contact/Contacts";
+import {
+  AddContact,
+  Contact,
+  Contacts,
+  EditContact,
+  Searchcontact,
+  ViewContact,
+  Navbar,
+  sppiner,
+} from "./components";
 
 const App = () => {
-  const [loading, setloading] = useState(true);
+  const [loading, setloading] = useState(false);
   const [getcontacts, setContacts] = useState([]);
   return (
     <div className="App">
