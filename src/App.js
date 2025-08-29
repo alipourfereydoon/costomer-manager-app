@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 import {
   AddContact,
@@ -17,7 +18,16 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <Contacts contacts={getcontacts} loading={loading} />
+      <Routes>
+        <Route path="/" element={<Navigate to="/Contacts/" />} />
+        <Route
+          path="/contacts"
+          element={<Contacts contacts={getcontacts} loading={loading} />}
+        />
+        <Route path="/contacts/add" element={<AddContact />} />
+        <Route path="/contacts/:contactId" element={<ViewContact />} />
+        <Route path="/contacts/edit/:contactId" element={<EditContact />} />
+      </Routes>
     </div>
   );
 };
