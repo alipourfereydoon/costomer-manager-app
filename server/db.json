@@ -1,0 +1,62 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "fullname": "ali pourfereydoon",
+      "photo": "",
+      "phone": "09177381998",
+      "email": "ali.pourferydoon1983@gmail.com",
+      "job": "web developer",
+      "group": "1"
+    },
+    {
+      "id": "2",
+      "fullname": "SARA behrooz",
+      "photo": "",
+      "phone": "0917896523",
+      "email": "SARA@gmail.com",
+      "job": "web developer",
+      "group": "1"
+    },
+    {
+      "id": "3",
+      "fullname": "arad behrooz",
+      "photo": "",
+      "phone": "0987654123",
+      "email": "araad@gmail.com",
+      "job": "web developer",
+      "group": "2"
+    },
+    {
+      "id": "4",
+      "fullname": "sanaz behrooz",
+      "photo": "",
+      "phone": "0984563214",
+      "email": "sanaz@gmail.com",
+      "job": "web developer",
+      "group": "1"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "coligue"
+    },
+    {
+      "id": "2",
+      "name": "friend"
+    },
+    {
+      "id": "3",
+      "name": "family"
+    },
+    {
+      "id": "4",
+      "name": "service"
+    },
+    {
+      "id": "5",
+      "name": "familirity"
+    }
+  ]
+}
