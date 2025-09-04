@@ -1,77 +1,30 @@
 {
   "contacts": [
     {
-      "fullname": [
-        "علی پورفریدون"
-      ],
-      "photo": [
-        "https://www.karlancer.com/f/avatar/1739267999-rAxz.jpg"
-      ],
-      "mobile": [
-        "02365"
-      ],
-      "email": [
-        "asdsad@t.com"
-      ],
-      "job": [
-        "asdsad"
-      ],
-      "group": "",
-      "id": "1"
-    },
-    {
-      "fullname": [
-        "farzad"
-      ],
-      "photo": [
-        "https://www.karlancer.com/f/avatar/1739267999-rAxz.jpg"
-      ],
-      "mobile": [
-        "01254"
-      ],
-      "email": [
-        "asdsad@t.com"
-      ],
-      "job": [
-        "sdfdf"
-      ],
-      "group": "",
-      "id": "2"
-    },
-    {
-      "id": "3",
-      "fullname": "arad behrooz",
-      "photo": "",
-      "phone": "0987654123",
-      "email": "araad@gmail.com",
-      "job": "web developer",
-      "group": "2"
-    },
-    {
-      "id": "4",
-      "fullname": "sanaz behrooz",
-      "photo": "",
-      "phone": "0984563214",
-      "email": "sanaz@gmail.com",
-      "job": "web developer",
-      "group": "1"
-    },
-    {
-      "id": "16a8",
+      "id": "7eff",
       "fullname": "sdf",
       "photo": "https://rctnetwork.ir/media/products/clothes.jpg",
-      "mobile": "0235689",
-      "email": "sdf@t.com",
-      "job": "asdsad",
-      "group": "1"
+      "mobile": "07894562",
+      "email": "ali.pourferydoon1983@gmail.com",
+      "job": "programmer",
+      "group": "5"
     },
     {
-      "id": "90c4",
-      "fullname": "abtin",
+      "id": "7b0b",
+      "fullname": "sara",
+      "photo": "https://www.karlancer.com/f/avatar/1739267999-rAxz.jpg",
+      "mobile": "01254",
+      "email": "gfd@yahoo.com",
+      "job": "sdfdf",
+      "group": "4"
+    },
+    {
+      "id": "c7f4",
+      "fullname": "javad",
       "photo": "https://rctnetwork.ir/media/products/clothes.jpg",
-      "mobile": "09285",
-      "email": "abtin@gmail.com",
-      "job": "d",
+      "mobile": "01254",
+      "email": "aba@yahoo.com",
+      "job": "sdfdf",
       "group": "4"
     }
   ],

@@ -4,7 +4,7 @@ import Contact from "./Contact";
 import { CURRENTLINE, ORANGE, PINK } from "../../helpers/colors";
 import Sppiner from "../sppiner";
 
-const Contacts = ({ contacts, loading }) => {
+const Contacts = ({ contacts, loading, confirmDelete }) => {
   return (
     <React.Fragment>
       <section className="container">
@@ -32,7 +32,13 @@ const Contacts = ({ contacts, loading }) => {
         <section className="container">
           <div className="row">
             {contacts.length > 0 ? (
-              contacts.map((c) => <Contact key={c.id} contact={c} />)
+              contacts.map((c) => (
+                <Contact
+                  key={c.id}
+                  confirmDelete={() => confirmDelete(c.id, c.fullname)}
+                  contact={c}
+                />
+              ))
             ) : (
               <div
                 className="text-center py-5"
